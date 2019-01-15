@@ -1,5 +1,8 @@
-function greet(name, lastName) {
-    console.log('Hello' + name + ' ' + lastName)
+//Menghitung Nilai
+
+function nilai(number){
+    return number * number;
+
 }
 
-greet('kinanti', 'anjang');
+console.log(nilai(6));
