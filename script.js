@@ -1,8 +1,8 @@
-//Menghitung Nilai
+// jika pelanggan memiliki lebih dari 100 poin
+// mereka adalah pelanggan 'emas' , jika tidak,
+// mereka adalah pelanggan 'perak'
 
-function nilai(number){
-    return number * number;
+let poin = 120;
+let type = poin > 100 ?  'emas' : 'perak';
 
-}
-
-console.log(nilai(6));
+console.log(type);
