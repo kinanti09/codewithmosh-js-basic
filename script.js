@@ -1,3 +1,5 @@
-let memilihWarna = ['pink', 'purple', 'blue'];
-memilihWarna[3] = 1;
-console.log(memilihWarna);
+function greet(name, lastName) {
+    console.log('Hello' + name + ' ' + lastName)
+}
+
+greet('kinanti', 'anjang');
