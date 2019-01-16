@@ -1,8 +1,9 @@
-// jika pelanggan memiliki lebih dari 100 poin
-// mereka adalah pelanggan 'emas' , jika tidak,
-// mereka adalah pelanggan 'perak'
+// Logical AND (&&)
+// Mengembalikan BENAR jika kedua operan BENAR
 
-let poin = 120;
-let type = poin > 100 ?  'emas' : 'perak';
 
-console.log(type);
+let penghasilan = true;
+let kredit = true;
+let syaratPinjaman = penghasilan && kredit;
+
+console.log(syaratPinjaman);
