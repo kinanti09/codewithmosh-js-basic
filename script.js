@@ -1,25 +1,11 @@
 
-let role = 'guest';
-
-switch (role) {
-   case 'guest':
-    console.log('Guest User');
-    break; 
+// for (let i = 1; i < 10; i++) {
+//     console.log('Hello World', i);
+// }
 
 
-   case 'moderator':
-    console.log('Moderator User');
-    break;
-
-
-   default:
-    console.log('Unknown User');
+for (let i = 0; i < 10; i++) {
+    if (i % 2 !== 0) 
+        console.log(i);
 }
 
-
-if (role === 'guest' && hour > 12) 
-    console.log('Guest');
-else if (role === 'moderator')
-    console.log('Moderator');
-else
-    console.log('Unknown User');
