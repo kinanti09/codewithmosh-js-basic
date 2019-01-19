@@ -1,5 +1,17 @@
-let userColor = undefined;
-let defaultColor = 'pink';
-let currentColor = userColor || defaultColor;
+// Read, Write, Execute
+// 00000100
+// 00000010
+// 00000001
 
-console.log(currentColor);
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+myPermission = myPermission | readPermission | writePermission;
+
+
+let message =
+    (myPermission & readPermission) ? 'yes' : 'no';
+
+console.log(message);
