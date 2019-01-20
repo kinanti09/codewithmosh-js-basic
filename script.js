@@ -1,22 +1,16 @@
 
-// for (let i = 0; i < 10; i++) {
-//     if (i % 2 !== 0) 
-//         console.log(i);
-// }
+const person = {
+    Name : "kinanti",
+    Height : 160,
+    Age : 17,
 
-// let i = 9;
-// while (i <= 5) {
-//     if (i % 2 !== 0)
-//     console.log(i);
-//     i++;
-// }
+    }
+    for (let key in person)
+    console.log(key, person[key]);
 
-// do-while
-let i = 7;
-do {
-    if (i % 2 !== 0)
-        console.log(i);
-        i++;
+const colors = ['pink', 'blue', 'purple'];
 
-} while(i <= 5);
+for (let index in colors)
+    console.log(index, colors[index]);
 
+    
