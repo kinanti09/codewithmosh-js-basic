@@ -1,19 +1,11 @@
-// for-in
-
-const person = {
-    Name : "kinanti",
-    Height : 160,
-    Age : 17,
-
+let i = 0;
+while (i <= 20) {
+    if (i % 2 === 0) {
+        i++;
+        continue;
     }
-    for (let key in person)
-    console.log(key, person[key]);
 
-
-
-// for-of
-
-const colors = ['pink', 'blue', 'purple'];
-
-for (let color of colors)
-    console.log(color);
+    console.log(i);
+    i++;
+}
+    
