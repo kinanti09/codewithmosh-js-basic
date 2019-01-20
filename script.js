@@ -1,3 +1,4 @@
+// for-in
 
 const person = {
     Name : "kinanti",
@@ -8,9 +9,11 @@ const person = {
     for (let key in person)
     console.log(key, person[key]);
 
+
+
+// for-of
+
 const colors = ['pink', 'blue', 'purple'];
 
-for (let index in colors)
-    console.log(index, colors[index]);
-
-    
+for (let color of colors)
+    console.log(color);
