@@ -1,11 +1,8 @@
-let i = 0;
-while (i <= 20) {
-    if (i % 2 === 0) {
-        i++;
-        continue;
-    }
 
-    console.log(i);
-    i++;
+let number = max (3, 8);
+    console.log(number);
+
+function max(a, b) {
+    return (a > b) ? a : b;
+
 }
-    
